@@ -1,0 +1,45 @@
+body {
+    color:#123a63;
+    background-color:rgb(128, 167, 171);
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    padding: 1em;
+}
+
+ul {
+    padding: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+section {
+    margin: 1em;
+}
+
+footer {
+    text-align: center;
+    background-color: #3963b1;
+    padding: 1em;
+}
+
+@media all {
+    p {
+        font-weight: bold;
+    }
+}
+
+@media print {
+    body {
+        background-color:rgb(255, 185, 93);
+    }
+}
